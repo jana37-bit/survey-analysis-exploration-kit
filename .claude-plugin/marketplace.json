@@ -1,0 +1,22 @@
+{
+  "name": "jana-survey-tools",
+  "owner": {
+    "name": "Jana Uthayakumar"
+  },
+  "metadata": {
+    "description": "Survey analysis skills (SPSS workflow + Excel/PPTX deliverables)"
+  },
+  "plugins": [
+    {
+      "name": "survey-analysis-kit",
+      "description": "End-to-end SPSS survey analysis + banner tables + optional PPTX summary",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/spss-survey-analysis",
+        "./skills/xlsx-survey",
+        "./skills/pptx-survey"
+      ]
+    }
+  ]
+}

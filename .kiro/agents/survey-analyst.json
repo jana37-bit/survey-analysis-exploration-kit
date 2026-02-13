@@ -1,0 +1,33 @@
+{
+  "name": "survey-analyst",
+  "description": "SPSS survey data analyst. Explores variables, recodes Likert scales, generates banner tables with significance tests.",
+  "prompt": "file://./survey-analyst-prompt.md",
+  "tools": [
+    "read",
+    "write",
+    "shell"
+  ],
+  "allowedTools": [
+    "read",
+    "shell"
+  ],
+  "toolsSettings": {
+    "write": {
+      "allowedPaths": [
+        "outputs/**",
+        "scripts/**",
+        "*.py",
+        "*.json",
+        "*.sps"
+      ]
+    }
+  },
+  "resources": [
+    "file://KIRO.md",
+    "file://.kiro/steering.md",
+    "file://.kiro/context/python-environment.md",
+    "file://.kiro/context/output-checklist.md",
+    "skill://.kiro/skills/**/SKILL.md"
+  ],
+  "welcomeMessage": "Ready to analyze survey data. Drop your .sav file in data/ and type: Analyze my survey"
+}

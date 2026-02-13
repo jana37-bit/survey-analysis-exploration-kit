@@ -1,0 +1,26 @@
+# Data files (don't commit survey data)
+data/*.sav
+data/*.zsav
+data/*.csv
+
+# Generated outputs
+outputs/*.sav
+outputs/*.xlsx
+outputs/*.pptx
+outputs/*.sps
+outputs/*.py
+outputs/*.json
+outputs/*.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kiro session files
+sessions/
